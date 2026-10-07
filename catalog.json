@@ -1,0 +1,819 @@
+{
+ "version": "2026-10-07",
+ "packs": [
+  {
+   "id": 23,
+   "name": "Heroes",
+   "icon": "packs/23.png"
+  },
+  {
+   "id": 28,
+   "name": "Heroes 2",
+   "icon": "packs/28.png"
+  },
+  {
+   "id": 29,
+   "name": "Po",
+   "icon": "packs/29.png"
+  },
+  {
+   "id": 31,
+   "name": "Dragons",
+   "icon": "packs/31.png"
+  },
+  {
+   "id": 32,
+   "name": "Critters",
+   "icon": "static/303.png"
+  }
+ ],
+ "emojis": [
+  {
+   "id": 180,
+   "kind": "static",
+   "pack": 23,
+   "name": "Bellevue: Flushed face",
+   "file": "static/180.png"
+  },
+  {
+   "id": 181,
+   "kind": "static",
+   "pack": 23,
+   "name": "Ganso: Angry face",
+   "file": "static/181.png"
+  },
+  {
+   "id": 182,
+   "kind": "static",
+   "pack": 23,
+   "name": "Black Widow: Hi",
+   "file": "static/182.png"
+  },
+  {
+   "id": 183,
+   "kind": "static",
+   "pack": 23,
+   "name": "Katyusha: Roger",
+   "file": "static/183.png"
+  },
+  {
+   "id": 184,
+   "kind": "static",
+   "pack": 23,
+   "name": "Katrina: Sad face",
+   "file": "static/184.png"
+  },
+  {
+   "id": 185,
+   "kind": "static",
+   "pack": 23,
+   "name": "Chloe: Gunshot",
+   "file": "static/185.png"
+  },
+  {
+   "id": 186,
+   "kind": "static",
+   "pack": 23,
+   "name": "Li Hongyu: I'm tired",
+   "file": "static/186.png"
+  },
+  {
+   "id": 187,
+   "kind": "static",
+   "pack": 23,
+   "name": "Nadia: Eating watermelon",
+   "file": "static/187.png"
+  },
+  {
+   "id": 188,
+   "kind": "static",
+   "pack": 23,
+   "name": "Nimitz: Confident",
+   "file": "static/188.png"
+  },
+  {
+   "id": 189,
+   "kind": "static",
+   "pack": 23,
+   "name": "Sam: Congrats",
+   "file": "static/189.png"
+  },
+  {
+   "id": 190,
+   "kind": "static",
+   "pack": 23,
+   "name": "Teresa: Face with tears of joy",
+   "file": "static/190.png"
+  },
+  {
+   "id": 191,
+   "kind": "static",
+   "pack": 23,
+   "name": "Tian Mu: Thinking face",
+   "file": "static/191.png"
+  },
+  {
+   "id": 192,
+   "kind": "static",
+   "pack": 23,
+   "name": "Tywin: Cheer up",
+   "file": "static/192.png"
+  },
+  {
+   "id": 193,
+   "kind": "static",
+   "pack": 23,
+   "name": "Sid: Bye-bye",
+   "file": "static/193.png"
+  },
+  {
+   "id": 194,
+   "kind": "static",
+   "pack": 23,
+   "name": "Alex: Smirking face",
+   "file": "static/194.png"
+  },
+  {
+   "id": 195,
+   "kind": "static",
+   "pack": 23,
+   "name": "Violet: Red Envelope",
+   "file": "static/195.png"
+  },
+  {
+   "id": 196,
+   "kind": "static",
+   "pack": 23,
+   "name": "Li Hongyu: Eating",
+   "file": "static/196.png"
+  },
+  {
+   "id": 197,
+   "kind": "static",
+   "pack": 23,
+   "name": "Villiers: Mooncake",
+   "file": "static/197.png"
+  },
+  {
+   "id": 198,
+   "kind": "static",
+   "pack": 23,
+   "name": "Tywin: Dracula",
+   "file": "static/198.png"
+  },
+  {
+   "id": 199,
+   "kind": "static",
+   "pack": 23,
+   "name": "Diana: Turkey",
+   "file": "static/199.png"
+  },
+  {
+   "id": 200,
+   "kind": "static",
+   "pack": 23,
+   "name": "We are the champions!",
+   "file": "static/200.png"
+  },
+  {
+   "id": 201,
+   "kind": "static",
+   "pack": 23,
+   "name": "You are Awesome!",
+   "file": "static/201.png"
+  },
+  {
+   "id": 202,
+   "kind": "static",
+   "pack": 23,
+   "name": "Saker: Positive Energy",
+   "file": "static/202.png"
+  },
+  {
+   "id": 203,
+   "kind": "static",
+   "pack": 23,
+   "name": "Del Toro: Alright, listen",
+   "file": "static/203.png"
+  },
+  {
+   "id": 204,
+   "kind": "static",
+   "pack": 23,
+   "name": "Diamanto: I have a plan",
+   "file": "static/204.png"
+  },
+  {
+   "id": 205,
+   "kind": "static",
+   "pack": 23,
+   "name": "Sasso: Take it cool",
+   "file": "static/205.png"
+  },
+  {
+   "id": 206,
+   "kind": "static",
+   "pack": 23,
+   "name": "Comedy Consortium: Assemble",
+   "file": "static/206.png"
+  },
+  {
+   "id": 207,
+   "kind": "static",
+   "pack": 23,
+   "name": "Emoji",
+   "file": "static/207.png"
+  },
+  {
+   "id": 208,
+   "kind": "static",
+   "pack": 23,
+   "name": "Emoji",
+   "file": "static/208.png"
+  },
+  {
+   "id": 209,
+   "kind": "static",
+   "pack": 23,
+   "name": "O'Neal - Super Caj",
+   "file": "static/209.png"
+  },
+  {
+   "id": 210,
+   "kind": "static",
+   "pack": 23,
+   "name": "Smirk",
+   "file": "static/210.png"
+  },
+  {
+   "id": 211,
+   "kind": "static",
+   "pack": 23,
+   "name": "Power Up",
+   "file": "static/211.png"
+  },
+  {
+   "id": 212,
+   "kind": "static",
+   "pack": 23,
+   "name": "That's Me",
+   "file": "static/212.png"
+  },
+  {
+   "id": 213,
+   "kind": "static",
+   "pack": 23,
+   "name": "I Am The Warrior",
+   "file": "static/213.png"
+  },
+  {
+   "id": 246,
+   "kind": "static",
+   "pack": 23,
+   "name": "Thumbs up",
+   "file": "static/246.png"
+  },
+  {
+   "id": 247,
+   "kind": "static",
+   "pack": 23,
+   "name": "Respect",
+   "file": "static/247.png"
+  },
+  {
+   "id": 248,
+   "kind": "static",
+   "pack": 23,
+   "name": "Cheer for You",
+   "file": "static/248.png"
+  },
+  {
+   "id": 249,
+   "kind": "static",
+   "pack": 23,
+   "name": "Achievement Master",
+   "file": "static/249.png"
+  },
+  {
+   "id": 250,
+   "kind": "static",
+   "pack": 23,
+   "name": "Territorial Ruler",
+   "file": "static/250.png"
+  },
+  {
+   "id": 251,
+   "kind": "static",
+   "pack": 23,
+   "name": "Ultimate Ruler",
+   "file": "static/251.png"
+  },
+  {
+   "id": 264,
+   "kind": "static",
+   "pack": 23,
+   "name": "Yes, That's Me",
+   "file": "static/264.png"
+  },
+  {
+   "id": 265,
+   "kind": "static",
+   "pack": 23,
+   "name": "Next Time, Promise",
+   "file": "static/265.png"
+  },
+  {
+   "id": 266,
+   "kind": "static",
+   "pack": 23,
+   "name": "Endless Potential",
+   "file": "static/266.png"
+  },
+  {
+   "id": 287,
+   "kind": "static",
+   "pack": 23,
+   "name": "Scent of Victory",
+   "file": "static/287.png"
+  },
+  {
+   "id": 288,
+   "kind": "static",
+   "pack": 23,
+   "name": "Bow of Honor",
+   "file": "static/288.png"
+  },
+  {
+   "id": 289,
+   "kind": "static",
+   "pack": 23,
+   "name": "King's Glance",
+   "file": "static/289.png"
+  },
+  {
+   "id": 290,
+   "kind": "static",
+   "pack": 23,
+   "name": "Force Unleashed",
+   "file": "static/290.png"
+  },
+  {
+   "id": 282,
+   "kind": "static",
+   "pack": 23,
+   "name": "Lucky Lion Dance",
+   "file": "static/282.png"
+  },
+  {
+   "id": 291,
+   "kind": "static",
+   "pack": 23,
+   "name": "Celebration Dance",
+   "file": "static/291.png"
+  },
+  {
+   "id": 292,
+   "kind": "static",
+   "pack": 23,
+   "name": "Resonating Melody",
+   "file": "static/292.png"
+  },
+  {
+   "id": 293,
+   "kind": "static",
+   "pack": 23,
+   "name": "item_54000573",
+   "file": "static/293.png"
+  },
+  {
+   "id": 319,
+   "kind": "static",
+   "pack": 23,
+   "name": "Smug",
+   "file": "static/319.png"
+  },
+  {
+   "id": 320,
+   "kind": "static",
+   "pack": 23,
+   "name": "Number One",
+   "file": "static/320.png"
+  },
+  {
+   "id": 321,
+   "kind": "static",
+   "pack": 23,
+   "name": "Hard Work Pays Off",
+   "file": "static/321.png"
+  },
+  {
+   "id": 322,
+   "kind": "static",
+   "pack": 23,
+   "name": "Bright Future",
+   "file": "static/322.png"
+  },
+  {
+   "id": 267,
+   "kind": "static",
+   "pack": 28,
+   "name": "Diana: You'll see",
+   "file": "static/267.png"
+  },
+  {
+   "id": 268,
+   "kind": "static",
+   "pack": 28,
+   "name": "Nemo: Hahaha",
+   "file": "static/268.png"
+  },
+  {
+   "id": 269,
+   "kind": "static",
+   "pack": 28,
+   "name": "Saker: Trust me",
+   "file": "static/269.png"
+  },
+  {
+   "id": 270,
+   "kind": "static",
+   "pack": 28,
+   "name": "Katyusha: Hehehe",
+   "file": "static/270.png"
+  },
+  {
+   "id": 271,
+   "kind": "static",
+   "pack": 28,
+   "name": "Kum & Hazel: See something?",
+   "file": "static/271.png"
+  },
+  {
+   "id": 272,
+   "kind": "static",
+   "pack": 29,
+   "name": "Po: Sit-ups",
+   "file": "static/272.png"
+  },
+  {
+   "id": 273,
+   "kind": "static",
+   "pack": 29,
+   "name": "Po: Taste of Victory",
+   "file": "static/273.png"
+  },
+  {
+   "id": 274,
+   "kind": "static",
+   "pack": 29,
+   "name": "Po: Step by Step",
+   "file": "static/274.png"
+  },
+  {
+   "id": 275,
+   "kind": "static",
+   "pack": 29,
+   "name": "Po: Source of Life",
+   "file": "static/275.png"
+  },
+  {
+   "id": 276,
+   "kind": "static",
+   "pack": 29,
+   "name": "Po: Easy Peasy",
+   "file": "static/276.png"
+  },
+  {
+   "id": 277,
+   "kind": "static",
+   "pack": 29,
+   "name": "Po: Whoa",
+   "file": "static/277.png"
+  },
+  {
+   "id": 278,
+   "kind": "static",
+   "pack": 29,
+   "name": "Po: Bring It On",
+   "file": "static/278.png"
+  },
+  {
+   "id": 279,
+   "kind": "static",
+   "pack": 29,
+   "name": "Po: Chi Focus",
+   "file": "static/279.png"
+  },
+  {
+   "id": 280,
+   "kind": "static",
+   "pack": 29,
+   "name": "Po: True Hero",
+   "file": "static/280.png"
+  },
+  {
+   "id": 281,
+   "kind": "static",
+   "pack": 29,
+   "name": "Po: Smells Good",
+   "file": "static/281.png"
+  },
+  {
+   "id": 310,
+   "kind": "static",
+   "pack": 31,
+   "name": "I'm Awesome",
+   "file": "static/310.png"
+  },
+  {
+   "id": 311,
+   "kind": "static",
+   "pack": 31,
+   "name": "Not Interested",
+   "file": "static/311.png"
+  },
+  {
+   "id": 312,
+   "kind": "static",
+   "pack": 31,
+   "name": "Totally Agree",
+   "file": "static/312.png"
+  },
+  {
+   "id": 313,
+   "kind": "static",
+   "pack": 31,
+   "name": "Hilarious!",
+   "file": "static/313.png"
+  },
+  {
+   "id": 314,
+   "kind": "static",
+   "pack": 31,
+   "name": "Waving",
+   "file": "static/314.png"
+  },
+  {
+   "id": 315,
+   "kind": "static",
+   "pack": 31,
+   "name": "Feeling Down",
+   "file": "static/315.png"
+  },
+  {
+   "id": 316,
+   "kind": "static",
+   "pack": 31,
+   "name": "Laughing Out Loud",
+   "file": "static/316.png"
+  },
+  {
+   "id": 317,
+   "kind": "static",
+   "pack": 31,
+   "name": "Not Happy",
+   "file": "static/317.png"
+  },
+  {
+   "id": 294,
+   "kind": "static",
+   "pack": 31,
+   "name": "That Should Be Me",
+   "file": "static/294.png"
+  },
+  {
+   "id": 295,
+   "kind": "static",
+   "pack": 31,
+   "name": "So Bored",
+   "file": "static/295.png"
+  },
+  {
+   "id": 296,
+   "kind": "static",
+   "pack": 31,
+   "name": "Crying a River",
+   "file": "static/296.png"
+  },
+  {
+   "id": 297,
+   "kind": "static",
+   "pack": 31,
+   "name": "Puppy Eyes",
+   "file": "static/297.png"
+  },
+  {
+   "id": 298,
+   "kind": "static",
+   "pack": 31,
+   "name": "LoL",
+   "file": "static/298.png"
+  },
+  {
+   "id": 299,
+   "kind": "static",
+   "pack": 31,
+   "name": "I'm Mad",
+   "file": "static/299.png"
+  },
+  {
+   "id": 300,
+   "kind": "static",
+   "pack": 31,
+   "name": "I Want It",
+   "file": "static/300.png"
+  },
+  {
+   "id": 301,
+   "kind": "static",
+   "pack": 31,
+   "name": "Interesting...",
+   "file": "static/301.png"
+  },
+  {
+   "id": 303,
+   "kind": "static",
+   "pack": 32,
+   "name": "Above the Stars",
+   "file": "static/303.png"
+  },
+  {
+   "id": 304,
+   "kind": "static",
+   "pack": 32,
+   "name": "Total Control",
+   "file": "static/304.png"
+  },
+  {
+   "id": 305,
+   "kind": "static",
+   "pack": 32,
+   "name": "So Happy",
+   "file": "static/305.png"
+  },
+  {
+   "id": 306,
+   "kind": "static",
+   "pack": 32,
+   "name": "Drowning in Tears",
+   "file": "static/306.png"
+  },
+  {
+   "id": 307,
+   "kind": "static",
+   "pack": 32,
+   "name": "Tiptoe",
+   "file": "static/307.png"
+  },
+  {
+   "id": 308,
+   "kind": "static",
+   "pack": 32,
+   "name": "Let's Spar",
+   "file": "static/308.png"
+  },
+  {
+   "id": 309,
+   "kind": "static",
+   "pack": 32,
+   "name": "Underwhelming",
+   "file": "static/309.png"
+  },
+  {
+   "id": 20001,
+   "kind": "gif",
+   "pack": "gif",
+   "name": "Lucky Dice",
+   "file": "gif/20001.gif",
+   "thumb": "gif-thumb/20001.png"
+  },
+  {
+   "id": 21001,
+   "kind": "gif",
+   "pack": "gif",
+   "name": "Rock! Paper! Scissors!",
+   "file": "gif/21001.gif",
+   "thumb": "gif-thumb/21001.png"
+  },
+  {
+   "id": 10021,
+   "kind": "gif",
+   "pack": "gif",
+   "name": "Heartfelt Love",
+   "file": "gif/10021.gif",
+   "thumb": "gif-thumb/10021.png"
+  },
+  {
+   "id": 10022,
+   "kind": "gif",
+   "pack": "gif",
+   "name": "Embarrassed",
+   "file": "gif/10022.gif",
+   "thumb": "gif-thumb/10022.png"
+  },
+  {
+   "id": 10023,
+   "kind": "gif",
+   "pack": "gif",
+   "name": "Shocked",
+   "file": "gif/10023.gif",
+   "thumb": "gif-thumb/10023.png"
+  },
+  {
+   "id": 10024,
+   "kind": "gif",
+   "pack": "gif",
+   "name": "Highlight Moment",
+   "file": "gif/10024.gif",
+   "thumb": "gif-thumb/10024.png"
+  },
+  {
+   "id": 10025,
+   "kind": "gif",
+   "pack": "gif",
+   "name": "River of Tears",
+   "file": "gif/10025.gif",
+   "thumb": "gif-thumb/10025.png"
+  },
+  {
+   "id": 10026,
+   "kind": "gif",
+   "pack": "gif",
+   "name": "Pumped Up",
+   "file": "gif/10026.gif",
+   "thumb": "gif-thumb/10026.png"
+  },
+  {
+   "id": 10027,
+   "kind": "gif",
+   "pack": "gif",
+   "name": "Fury Burst",
+   "file": "gif/10027.gif",
+   "thumb": "gif-thumb/10027.png"
+  },
+  {
+   "id": 10028,
+   "kind": "gif",
+   "pack": "gif",
+   "name": "Rock 'n' Roll Rhythm",
+   "file": "gif/10028.gif",
+   "thumb": "gif-thumb/10028.png"
+  },
+  {
+   "id": 10029,
+   "kind": "gif",
+   "pack": "gif",
+   "name": "Pleasant Surprise",
+   "file": "gif/10029.gif",
+   "thumb": "gif-thumb/10029.png"
+  },
+  {
+   "id": 10030,
+   "kind": "gif",
+   "pack": "gif",
+   "name": "Salute",
+   "file": "gif/10030.gif",
+   "thumb": "gif-thumb/10030.png"
+  },
+  {
+   "id": 10005,
+   "kind": "gif",
+   "pack": "gif",
+   "name": "Sara: Cyber Thumbs-Up",
+   "file": "gif/10005.gif",
+   "thumb": "gif-thumb/10005.png"
+  },
+  {
+   "id": 10008,
+   "kind": "gif",
+   "pack": "gif",
+   "name": "Ella: Feel the Beat",
+   "file": "gif/10008.gif",
+   "thumb": "gif-thumb/10008.png"
+  },
+  {
+   "id": 10012,
+   "kind": "gif",
+   "pack": "gif",
+   "name": "Jett: Victory Cheer",
+   "file": "gif/10012.gif",
+   "thumb": "gif-thumb/10012.png"
+  },
+  {
+   "id": 10004,
+   "kind": "gif",
+   "pack": "gif",
+   "name": "Sara: Wailing",
+   "file": "gif/10004.gif",
+   "thumb": "gif-thumb/10004.png"
+  },
+  {
+   "id": 10006,
+   "kind": "gif",
+   "pack": "gif",
+   "name": "Margaretha: Finger Hearts",
+   "file": "gif/10006.gif",
+   "thumb": "gif-thumb/10006.png"
+  }
+ ]
+}
